@@ -29,12 +29,11 @@ All workflows run in **Google Colab**, so you don’t need to install anything l
 
 ## 📊 Sample OCR Accuracy Table
 
-| Engine     | WER   | CER   | Characters |
-|------------|-------|-------|------------|
-| EasyOCR    | 0.13  | 0.08  | 248        |
-| Tesseract  | 0.09  | 0.04  | 261        |
-| PaddleOCR  | 0.12  | 0.07  | 243        |
-| Gemini     | 0.10  | 0.06  | 265        |
+| Engine     | WER   | CER   |
+|------------|-------|-------|
+| EasyOCR    | 0.89  | 0.67  |
+| Tesseract  | 0.69  | 0.43  |
+| PaddleOCR  | 0.79  | 0.76  |
 
 ---
 
@@ -70,4 +69,3 @@ Built with:
 ---
 
 📬 Feedback or questions? Feel free to open an issue or fork the repo.
-
