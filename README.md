@@ -15,25 +15,31 @@ All workflows run in **Google Colab**, so you don’t need to install anything l
 
 ---
 
-##  Try It Out (Colab Links)
+## Try It Out (Colab Links)
 
 | Notebook                        | Description                                  | Link                                                                 |
 |----------------------------------|----------------------------------------------|----------------------------------------------------------------------|
 | 🧪 `OCR_packages_comparison`     | Compare multiple OCR engines on one image    | [Open in Colab](https://colab.research.google.com/drive/1XZEeED3dpC1I8RFKbuBM8u_Fj3ubvlce?usp=sharing) |
 | 📅 `Preprocessing_demo`          | Show impact of preprocessing visually        | [Open in Colab](https://colab.research.google.com/drive/19uHXxZeSgFFP2cyhGbLQU4MeBjq0wAcg?usp=sharing) |
 | 🤖 `Gemini_error_solution`       | Fixing Gemini setup and API usage            | [Open in Colab](https://colab.research.google.com/drive/15y3SyS0RqmygtxHQT24ghG0L59gZjix8?usp=sharing) |
-
-> Images should be placed in your Google Drive under `/OCR evaluation/Data/`
+| 🔍 `LLM_OCR_comparison`          | Compare LLMs vs. OCR tools                   | [Open in Colab](https://colab.research.google.com/drive/1f-9GX1nC2egqaZxmCIdFMkNXifL9FchB?usp=sharing) |
+Images should be placed in your Google Drive under `/OCR evaluation/Data/`
 
 ---
 
-## Sample OCR Accuracy Table
 
-| Engine     | WER   | CER   |
-|------------|-------|-------|
-| EasyOCR    | 0.89  | 0.67  |
-| Tesseract  | 0.69  | 0.43  |
-| PaddleOCR  | 0.79  | 0.76  |
+## Sample OCR + LLM Accuracy Table
+
+| Engine     | WER   | CER   | LLM  |
+|------------|-------|-------|------|
+| Gemini     | 0.08  | 0.06  | Yes  |
+| Deepseek   | 0.10  | 0.06  | Yes  |
+| Qwen       | 0.33  | 0.31  | Yes  |
+| Chat GBT   | 0.58  | 0.45  | Yes  |
+| Tesseract  | 0.69  | 0.43  | No   |
+| PaddleOCR  | 0.79  | 0.76  | No   |
+| EasyOCR    | 0.89  | 0.67  | No   |
+
 
 ---
 
