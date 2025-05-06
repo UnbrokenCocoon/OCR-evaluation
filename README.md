@@ -23,6 +23,8 @@ All workflows run in **Google Colab**, so you don’t need to install anything l
 | 📅 `Preprocessing_demo`          | Show impact of preprocessing visually        | [Open in Colab](https://colab.research.google.com/drive/19uHXxZeSgFFP2cyhGbLQU4MeBjq0wAcg?usp=sharing) |
 | 🤖 `Gemini_error_solution`       | Fixing Gemini setup and API usage            | [Open in Colab](https://colab.research.google.com/drive/15y3SyS0RqmygtxHQT24ghG0L59gZjix8?usp=sharing) |
 | 🔍 `LLM_OCR_comparison`          | Compare LLMs vs. OCR tools                   | [Open in Colab](https://colab.research.google.com/drive/1f-9GX1nC2egqaZxmCIdFMkNXifL9FchB?usp=sharing) |
+
+
 Images should be placed in your Google Drive under `/OCR evaluation/Data/`
 
 ---
