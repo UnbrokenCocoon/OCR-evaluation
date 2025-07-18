@@ -32,15 +32,15 @@ Images should be placed in your Google Drive under `/OCR evaluation/Data/`
 
 ## Sample OCR + LLM Accuracy Table
 
-| Engine     | WER   | CER   | LLM  |
-|------------|-------|-------|------|
-| Gemini     | 0.08  | 0.06  | Yes  |
-| Deepseek   | 0.10  | 0.06  | Yes  |
-| Qwen       | 0.33  | 0.31  | Yes  |
-| Chat GBT   | 0.58  | 0.45  | Yes  |
-| Tesseract  | 0.69  | 0.43  | No   |
-| PaddleOCR  | 0.79  | 0.76  | No   |
-| EasyOCR    | 0.89  | 0.67  | No   |
+| Engine           |   WER |   CER | LLM   |
+|:-----------------|------:|------:|:------|
+| Gemini 2-0 Flash |  0.04 |  0.02 | Yes   |
+| Qwen3-235B-A22B  |  0.06 |  0.03 | Yes   |
+| Deepseek-V3-R1   |  0.29 |  0.26 | Yes   |
+| Chat GBT 4-o     |  0.58 |  0.45 | Yes   |
+| Tesseract        |  0.69 |  0.43 | No    |
+| PaddleOCR        |  0.79 |  0.76 | No    |
+| EasyOCR          |  0.89 |  0.67 | No    |
 
 
 ---
